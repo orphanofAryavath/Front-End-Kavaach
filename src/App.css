@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+
+.jum{
+background-color: mediumpurple !important;
+margin-bottom: 0px !important;
+border-radius: 0 !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-dark {
+  background-color: #512DA8;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.jumb{
+  background-image: url('./images/pv5Dxn.jpg');
+  background-repeat: no-repeat,repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 50px;
+  font-weight: bold;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 100px;
+  border-radius: 50px;
+  box-shadow: 10px 10px 5px 0px black;
 }
-
-.App-link {
-  color: #61dafb;
+.main{
+  background-color: #ffffff73;
+  padding: 50px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer{
+  /* background-color: #D1C4E9; */
+  background-color:#dd99ff ;
+  margin:0px auto;
+  padding: 20px 0px 20px 0px;
+}
+address{
+  font-size:80%;
+  margin:0px;
+  color:#0f0f0f;
+}
+.footer-font{
+  font-size: 25px;
+  font-style: oblique;
 }

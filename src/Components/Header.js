@@ -25,7 +25,7 @@ export class Header extends Component {
                 
              
             
-             <Jumbotron className="jumbotron-background text-center">
+             <Jumbotron className="text-center jum">
                                  
                         <h1 className="display-3">WedLockz</h1>
                         <p className="lead">One Stop for Your Wedding Bell .....</p>
@@ -33,8 +33,8 @@ export class Header extends Component {
              </Jumbotron>
              
              
-             <Navbar dark className="navbar-background" expand="md">
-                 <div className="container">
+             <Navbar dark className="navbar-background" expand="md" sticky="top">
+        
                       <NavbarToggler onClick={this.toggleNav} />
                         <NavbarBrand  href='/' className="mr-auto" >Logo</NavbarBrand>
                         
@@ -60,10 +60,10 @@ export class Header extends Component {
                          </Nav>
                          <Nav className="ml-auto" navbar>
                             <NavItem>
-                            <NavLink href = "#"><spam className="fa fa-sign-in"></spam> Login </NavLink>
+                            <NavLink href = "#"><Button color="danger">Login</Button></NavLink>
                             </NavItem>
                             <NavItem>
-                            <NavLink href = "#"><spam className="fa fa-sign-in"></spam> Signup</NavLink>
+                            <NavLink href = "#"><Button color="danger">Sign Up</Button></NavLink>
                             </NavItem>
 
                             </Nav>
@@ -71,7 +71,6 @@ export class Header extends Component {
                        
                          
                             </Collapse>  
-                            </div>       
              </Navbar>
              </div>
          
